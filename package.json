@@ -1,0 +1,25 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "YouTube personal videos downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poonamsagar/YouTube-Downloader.git"
+  },
+  "keywords": [
+    "YouTube",
+    "YouTubeDownloader",
+    "JavaScript",
+    "Node"
+  ],
+  "author": "Poonam Sagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poonamsagar/YouTube-Downloader/issues"
+  },
+  "homepage": "https://github.com/poonamsagar/YouTube-Downloader#readme"
+}
