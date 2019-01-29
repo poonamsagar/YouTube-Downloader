@@ -1,17 +1,32 @@
+body{
+    background-image: url(../img/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 * {
     text-align: center;
 }
-.heading {
-    font-family: Arial;
-    margin-top:40vh;
+.container {
+    margin-top:15vh;
+}
+.disclaimer{
+margin-top:10vh;
+}
+.disclaimer-text{
+    color:rgb(0, 23, 128);
+}
+.form-control{
+    width:100%;
+    margin-top:20px;
 }
 .URL-input, .convert-button {
+    border-radius:4px;
     font-size:1.3em;
     padding:5px 10px;
 }
+
 .URL-input {
-    border-radius:4px 0px 0px 4px;
-    width:30em;
+    width:80%;
     text-align: left;
     border:2px solid #EEEEEE;
     background: #EEEEEE;
@@ -21,7 +36,6 @@
     border:2px solid #0485ff;
 }
 .convert-button {
-    border-radius:0px 4px 4px 0px;
     border:2px solid #0485ff;
     background: #0485ff;
     color:white;
