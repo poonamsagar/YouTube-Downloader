@@ -4,7 +4,8 @@
   "description": "YouTube personal videos downloader",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,36 @@
     "url": "https://github.com/poonamsagar/YouTube-Downloader/issues"
   },
   "homepage": "https://github.com/poonamsagar/YouTube-Downloader#readme",
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ],
+    "plugins": [
+      "@babel/proposal-object-rest-spread"
+    ]
+  },
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.1",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
     "cors": "^2.8.5",
+    "css-loader": "^2.1.0",
     "express": "^4.16.4",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.1",
+    "terser": "^3.14.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
     "ytdl-core": "^0.29.1"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   }
 }
