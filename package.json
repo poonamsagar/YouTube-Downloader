@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/poonamsagar/YouTube-Downloader/issues"
   },
-  "homepage": "https://github.com/poonamsagar/YouTube-Downloader#readme",
+  "homepage": "https://poonamsagar.github.io/YouTube-Downloader/",
   "devDependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
